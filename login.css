@@ -1,0 +1,474 @@
+@media (min-width:417px)
+{
+    *{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+    .body{
+        background-color: rgb(17, 90, 20);
+        
+        
+        
+    }
+    
+    .main-div{
+        background-image: url(Jellyfish.jpg);
+        
+        
+        width: 22rem;
+        height: 29rem;
+        margin-top: 8rem;
+        margin-left: 1.3rem;
+        border: 1px solid black;
+        border-radius: 1rem;
+        box-shadow: 5px 3px 30px 0 rgb(25, 25, 26);
+        transition: all;
+        transition-duration: 500ms;
+    }
+    .main-div:hover{
+        background-color: white;
+        width: 22.5rem;
+        height: 29rem;
+        margin-top: 8rem;
+        margin-left: 1rem;
+        border: 1px solid black;
+        border-radius: 1rem;
+        box-shadow: 5px 3px 300px 0 rgb(234,0,245);
+        transition: all;
+        transition-duration: 500ms;
+    }
+    .login-text{
+        
+        font-size: 30px;
+        margin-left: 7.5rem;
+        margin-top: 15px;
+    }
+    .email-text{
+        font-size: 22px;
+        margin-left:1rem ;
+    }
+    
+    .email-input{
+        width: 15rem;
+        height: 1.8rem;
+    
+        margin-left:3rem;
+        margin-top: 5px;
+        font-size: large;
+        padding-left: 10px;
+        
+        box-shadow: 5px 3px 15px rgb(25, 25, 26);
+        transition: all;
+        transition-duration: 500ms;
+    }
+    .email-input:hover{
+        width: 15rem;
+        height: 1.8rem;
+        border: none;
+        margin-left:3rem;
+        margin-top: 5px;
+        font-size: large;
+        padding-left: 10px;
+        box-shadow: 0 3px 100px 0 rgb(234, 0, 255);
+        transition: all;
+        transition-duration: 500ms;
+        
+    }
+    .password-text{
+        font-size: 22px;
+        margin-left: 1rem;
+        padding-top: 10px;
+        
+       
+    }
+    .password-input{
+        width: 15rem;
+        height: 1.8rem;
+    
+        margin-left:3rem;
+        margin-top: 12px;
+        font-size: large;
+        padding-left: 10px;
+        box-shadow: 5px 3px 15px rgb(25, 25, 26);
+        transition: all;
+        transition-duration: 500ms;
+    }
+    .password-input:hover{
+        width: 15rem;
+        height: 1.8rem;
+    
+        margin-left:3rem;
+        margin-top: 12px;
+        font-size: large;
+        padding-left: 10px;
+        box-shadow: 0 3px 100px 0 rgb(234,0,255);
+        transition: all;
+        transition-duration: 500ms;
+    }
+    .a{
+        font-size: small;
+        margin-left: 11.5rem;
+        margin-top: 20px;
+        
+
+    }
+    .login-button{
+        width: 15rem;
+        height: 2rem;
+        margin-left: 55px;
+        margin-top: 1.25rem;
+        background-color: blueviolet;
+        border: none;
+        color: white;
+        font-weight: bold;
+        box-shadow: 5px 3px 15px rgb(25, 25, 26);
+        transition: all;
+        transition-duration: 500ms;
+        
+    }
+    .login-button:hover{
+        width: 18rem;
+        height: 2rem;
+        margin-left: 30px;
+        margin-top: 1.25rem;
+        background-color: blueviolet;
+        border: none;
+        color: white;
+        font-weight: bold;
+        box-shadow: 5px 3px 150px rgb(234,0,255);
+        transition: all;
+        transition-duration: 500ms;
+        
+    }
+    .footer{
+        margin-left: 0.4rem;
+        width: 25.5rem;
+        font-size: large;
+        height: fit-content;
+        margin-top: 12rem;
+        color: white;
+    }
+    .g{
+        margin-left: 95px;
+    }
+    .i-programmer{
+        color: purple;
+       
+    }
+}
+
+@media only screen and (min-width: 1200px) 
+{
+    *{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+    .body{
+        background-color: rgb(17, 90, 20);
+        
+        
+    }
+    .main-div{
+        background-image: url(Jellyfish.jpg);
+        
+        
+        width: 22rem;
+        height: 29rem;
+        margin-top: 10rem;
+        margin-left: 20rem;
+        border: 1px solid black;
+        border-radius: 1rem;
+        box-shadow: 5px 3px 30px 0 rgb(25, 25, 26);
+        transition: all;
+        transition-duration: 500ms;
+    }
+    .main-div:hover{
+        background-color: white;
+        width: 22.5rem;
+        height: 29rem;
+        margin-top: 10rem;
+        margin-left: 18rem;
+        border: 1px solid black;
+        border-radius: 1rem;
+        box-shadow: 5px 3px 300px 0 rgb(234,0,245);
+        transition: all;
+        transition-duration: 500ms;
+    }
+    .login-text{
+        
+        font-size: 30px;
+        margin-left: 7.5rem;
+        margin-top: 15px;
+    }
+    .email-text{
+        font-size: 22px;
+        margin-left:1rem ;
+    }
+   
+    .email-input{
+        width: 15rem;
+        height: 1.8rem;
+    
+        margin-left:3rem;
+        margin-top: 5px;
+        font-size: large;
+        padding-left: 10px;
+        
+        box-shadow: 5px 3px 15px rgb(25, 25, 26);
+        transition: all;
+        transition-duration: 500ms;
+    }
+    .email-input:hover{
+        width: 15rem;
+        height: 1.8rem;
+        border: none;
+        margin-left:3rem;
+        margin-top: 5px;
+        font-size: large;
+        padding-left: 10px;
+        box-shadow: 0 3px 100px 0 rgb(234, 0, 255);
+        transition: all;
+        transition-duration: 500ms;
+        
+    }
+    .password-text{
+        font-size: 22px;
+        margin-left: 1rem;
+        padding-top: 10px;
+        
+       
+    }
+    .password-input{
+        width: 15rem;
+        height: 1.8rem;
+    
+        margin-left:3rem;
+        margin-top: 12px;
+        font-size: large;
+        padding-left: 10px;
+        box-shadow: 5px 3px 15px rgb(25, 25, 26);
+        transition: all;
+        transition-duration: 500ms;
+    }
+    .password-input:hover{
+        width: 15rem;
+        height: 1.8rem;
+    
+        margin-left:3rem;
+        margin-top: 12px;
+        font-size: large;
+        padding-left: 10px;
+        box-shadow: 0 3px 100px 0 rgb(234,0,255);
+        transition: all;
+        transition-duration: 500ms;
+    }
+    .a{
+        font-size: small;
+        margin-left: 11.5rem;
+        margin-top: 20px;
+        
+
+    }
+    .login-button{
+        width: 15rem;
+        height: 2rem;
+        margin-left: 55px;
+        margin-top: 1.25rem;
+        background-color: blueviolet;
+        border: none;
+        color: white;
+        font-weight: bold;
+        box-shadow: 5px 3px 15px rgb(25, 25, 26);
+        transition: all;
+        transition-duration: 500ms;
+        
+    }
+    .login-button:hover{
+        width: 18rem;
+        height: 2rem;
+        margin-left: 30px;
+        margin-top: 1.25rem;
+        background-color: blueviolet;
+        border: none;
+        color: white;
+        font-weight: bold;
+        box-shadow: 5px 3px 150px rgb(234,0,255);
+        transition: all;
+        transition-duration: 500ms;
+        
+    }
+    .footer{
+        margin-left: 44rem;
+        width: 38rem;
+        font-size: 28px;
+        height: fit-content;
+        margin-top: -18rem;
+        color: white;
+    }
+    .g{
+        margin-left: 0px;
+        
+    }
+    .i-programmer{
+        color: purple;
+        margin-top: -25px;
+    }
+}
+@media only screen and (min-width: 768px) 
+{
+    *{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+    .body{
+        background-color: rgb(17, 90, 20);
+        
+        
+    }
+    .main-div{
+        background-image: url(Jellyfish.jpg);
+        
+        
+        width: 22rem;
+        height: 29rem;
+        margin-top: 10rem;
+        margin-left: 5rem;
+        border: 1px solid black;
+        border-radius: 1rem;
+        box-shadow: 5px 3px 30px 0 rgb(25, 25, 26);
+        transition: all;
+        transition-duration: 500ms;
+    }
+    .main-div:hover{
+        background-color: white;
+        width: 22.5rem;
+        height: 29rem;
+        margin-top: 10rem;
+        margin-left: 4rem;
+        border: 1px solid black;
+        border-radius: 1rem;
+        box-shadow: 5px 3px 300px 0 rgb(234,0,245);
+        transition: all;
+        transition-duration: 500ms;
+    }
+    .login-text{
+        
+        font-size: 30px;
+        margin-left: 7.5rem;
+        margin-top: 15px;
+    }
+    .email-text{
+        font-size: 22px;
+        margin-left:1rem ;
+    }
+   
+    .email-input{
+        width: 15rem;
+        height: 1.8rem;
+    
+        margin-left:3rem;
+        margin-top: 5px;
+        font-size: large;
+        padding-left: 10px;
+        
+        box-shadow: 5px 3px 15px rgb(25, 25, 26);
+        transition: all;
+        transition-duration: 500ms;
+    }
+    .email-input:hover{
+        width: 15rem;
+        height: 1.8rem;
+        border: none;
+        margin-left:3rem;
+        margin-top: 5px;
+        font-size: large;
+        padding-left: 10px;
+        box-shadow: 0 3px 100px 0 rgb(234, 0, 255);
+        transition: all;
+        transition-duration: 500ms;
+        
+    }
+    .password-text{
+        font-size: 22px;
+        margin-left: 1rem;
+        padding-top: 10px;
+        
+       
+    }
+    .password-input{
+        width: 15rem;
+        height: 1.8rem;
+    
+        margin-left:3rem;
+        margin-top: 12px;
+        font-size: large;
+        padding-left: 10px;
+        box-shadow: 5px 3px 15px rgb(25, 25, 26);
+        transition: all;
+        transition-duration: 500ms;
+    }
+    .password-input:hover{
+        width: 15rem;
+        height: 1.8rem;
+    
+        margin-left:3rem;
+        margin-top: 12px;
+        font-size: large;
+        padding-left: 10px;
+        box-shadow: 0 3px 100px 0 rgb(234,0,255);
+        transition: all;
+        transition-duration: 500ms;
+    }
+    .a{
+        font-size: small;
+        margin-left: 11.5rem;
+        margin-top: 20px;
+        
+
+    }
+    .login-button{
+        width: 15rem;
+        height: 2rem;
+        margin-left: 55px;
+        margin-top: 1.25rem;
+        background-color: blueviolet;
+        border: none;
+        color: white;
+        font-weight: bold;
+        box-shadow: 5px 3px 15px rgb(25, 25, 26);
+        transition: all;
+        transition-duration: 500ms;
+        
+    }
+    .login-button:hover{
+        width: 18rem;
+        height: 2rem;
+        margin-left: 30px;
+        margin-top: 1.25rem;
+        background-color: blueviolet;
+        border: none;
+        color: white;
+        font-weight: bold;
+        box-shadow: 5px 3px 150px rgb(234,0,255);
+        transition: all;
+        transition-duration: 500ms;
+        
+    }
+    .footer{
+        margin-left: 28rem;
+        width: 20rem;
+        font-size: 20px;
+        height: fit-content;
+        margin-top: -18rem;
+        color: white;
+    }
+    .g{
+        margin-left: 0px;
+        
+    }
+    .i-programmer{
+        color: purple;
+        margin-bottom: 1200px;
+        
+    }
+}
